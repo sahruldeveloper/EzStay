@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EzStay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light">
+     <div class="container">
+          <div class="navbar-brand">
+               <img src="assets/Logo.png" alt="">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="" class="nav-link btn-login">Log In</a></li>
+              <li class="nav-item"><button type="button" class="btn btn-register">Sign Up</button></li>
+            </ul>
+          </div>
+     </div>
+   </nav>
+   <!-- end navbar -->
+
+   <!-- carousel -->
+   <div id="carouselExampleFade" class="carousel slide carousel-fade">
+   <div class="container">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('assets/Hero\ Picture.png');">
+        <div class="row">
+          <div class="col-9 col-sm-9 col-md-8 col-lg-8  ">
+            <div class="content-carousel">
+              <h1>Travel With Us, Cheaply</h1>
+              <p class="pt-4 fw-semibold fw-opacity">28°C Cloudy</p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <div class="carousel-item carousel-item-second" style="background-image: url('assets/Hero\ Picture.png');">
+        <div class="row">
+          <div class="col-9 col-sm-9 col-md-8 col-lg-8  ">
+            <div class="content-carousel">
+              <h1>Find Your <br>Destination</h1>
+              <p class="pt-4 fw-semibold fw-opacity">28°C Cloudy</p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      
+    
+    </div>
+   </div>
+    <!-- button -->
+  <div class="container">
+    <div class="button-carousel">
+      <button class="carousel-control-prev-custom " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect y="5.65686" width="8" height="2" rx="1" transform="rotate(-45 0 5.65686)" fill="#24201D"/>
+          <rect y="5" width="14" height="2" rx="1" fill="#24201D"/>
+          <rect x="1.41418" y="5" width="8" height="2" rx="1" transform="rotate(45 1.41418 5)" fill="#24201D"/>
+          </svg>
+      
+          
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next-custom " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+       
+        <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="8" height="2" rx="1" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 14 5.65686)" fill="#24201D"/>
+          <rect width="14" height="2" rx="1" transform="matrix(-1 0 0 1 14 5)" fill="#24201D"/>
+          <rect width="8" height="2" rx="1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 12.5858 5)" fill="#24201D"/>
+          </svg>
+          
+        <span class="visually-hidden">Next</span>
+      </button>
+     </div>
+  </div>
+    <!-- button -->
+   
+  </div>
+   <!-- end carousel -->
+
+   <!-- info panel -->
+ <div class="container">
+  <div class="row info-panel mx-auto ">
+    <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-2 card-panel">
+      <h3>Location</h3>
+      <div class="d-flex">
+        <p>Your Destination</p>
+        <p class="ml-4"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.5">
+          <path d="M10 0C6.12297 0 2.96875 3.15422 2.96875 7.03125C2.96875 8.34117 3.3316 9.61953 4.01832 10.7286L9.59977 19.723C9.70668 19.8953 9.89504 20 10.0976 20C10.0992 20 10.1007 20 10.1023 20C10.3066 19.9984 10.4954 19.8905 10.6003 19.7152L16.0395 10.6336C16.6883 9.54797 17.0312 8.30231 17.0312 7.03125C17.0312 3.15422 13.877 0 10 0ZM15.0338 10.032L10.0887 18.2885L5.01434 10.1112C4.44273 9.18805 4.13281 8.12305 4.13281 7.03125C4.13281 3.80039 6.76914 1.16406 10 1.16406C13.2309 1.16406 15.8633 3.80039 15.8633 7.03125C15.8633 8.09066 15.5738 9.12844 15.0338 10.032Z" fill="black"/>
+          <path d="M10 3.51562C8.06148 3.51562 6.48438 5.09273 6.48438 7.03125C6.48438 8.95738 8.03582 10.5469 10 10.5469C11.9884 10.5469 13.5156 8.93621 13.5156 7.03125C13.5156 5.09273 11.9385 3.51562 10 3.51562ZM10 9.38281C8.7009 9.38281 7.64844 8.32684 7.64844 7.03125C7.64844 5.73891 8.70766 4.67969 10 4.67969C11.2923 4.67969 12.3477 5.73891 12.3477 7.03125C12.3477 8.30793 11.3197 9.38281 10 9.38281Z" fill="black"/>
+          </g>
+          </svg>
+          </p>
+      </div>
+     
+    </div>
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3  card-panel activity">
+      <h3>Activity</h3>
+      <div class="d-flex ">
+        <p>Your Activity</p>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.5">
+          <circle cx="10" cy="10" r="9.5" stroke="black"/>
+          <circle cx="10" cy="10" r="1.5" stroke="black"/>
+          </g>
+          </svg>
+          
+      </div>
+    </div>
+     <div class="col-6 col-sm-6 col-md-3 col-lg-2 ">
+      <h3>Date</h3>
+      <div class="d-flex date">
+        <p>Set Date</p>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3.33325" y="9.47369" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="14.4443" y="9.47369" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="12.2222" y="9.47369" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="10" y="9.47369" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="7.77783" y="9.47369" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="5.55566" y="9.47369" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="3.33325" y="15.7895" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="14.4443" y="15.7895" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="12.2222" y="15.7895" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="10" y="15.7895" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="7.77783" y="15.7895" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="5.55566" y="15.7895" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="3.33325" y="11.5789" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="14.4443" y="11.5789" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="12.2222" y="11.5789" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="10" y="11.5789" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="7.77783" y="11.5789" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="5.55566" y="11.5789" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="3.33325" y="13.6842" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="14.4443" y="13.6842" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="12.2222" y="13.6842" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="10" y="13.6842" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="7.77783" y="13.6842" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="5.55566" y="13.6842" width="1.11111" height="1.05263" fill="#808080"/>
+          <rect x="0.5" y="1.55263" width="19" height="17.9474" rx="1.5" stroke="#808080"/>
+          <path d="M0.5 6.8158H19.5V18C19.5 18.8284 18.8284 19.5 18 19.5H2C1.17157 19.5 0.5 18.8284 0.5 18V6.8158Z" stroke="#808080"/>
+          <line x1="6.05566" y1="-1.96701e-08" x2="6.05566" y2="4.21053" stroke="#808080"/>
+          <line x1="14.9443" y1="-1.96701e-08" x2="14.9443" y2="4.21053" stroke="#808080"/>
+          </svg>
+          
+      </div>
+      
+    </div>
+
+    <div class="col-6 col-sm-2 col-md-3 col-lg-2 ">
+      <button class="btn btn-search" type="button">
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.139 21.6665L17.5852 16.1126C18.9623 14.4116 19.7915 12.2502 19.7915 9.89605C19.7915 4.43986 15.3519 0.000305176 9.8957 0.000305176C4.43951 0.000305176 0 4.43981 0 9.89601C0 15.3522 4.43956 19.7918 9.89575 19.7918C12.2499 19.7918 14.4113 18.9626 16.1123 17.5855L21.6662 23.1393C21.8693 23.3425 22.1359 23.4446 22.4026 23.4446C22.6693 23.4446 22.936 23.3425 23.1391 23.1393C23.5464 22.7321 23.5464 22.0737 23.139 21.6665ZM9.89575 17.7084C5.58745 17.7084 2.08333 14.2043 2.08333 9.89601C2.08333 5.5877 5.58745 2.08358 9.89575 2.08358C14.2041 2.08358 17.7082 5.5877 17.7082 9.89601C17.7082 14.2043 14.204 17.7084 9.89575 17.7084Z" fill="white"/>
+          </svg>
+          
+      </button>
+    </div>
+
+    
+   
+    
+   
+    
+  </div>
+ </div>
+ <!-- end info panel -->
+
+ <!-- section recomend -->
+ <section class="recomended-building">
+  <div class="container">
+    <div class="section-title text-center">
+      <h3>Recomended Building</h3>
+      <p>The most Brilliant reason NotCube has to be<br> 
+        most Convenient and Cheap</p>
+    </div>
+    <div class="section-recomended-building">
+      <div class="row  justify-content-center">
+        <div class="col-12 col-md-4 col-sm-6  ">
+          <div class="card">
+            <img src="assets/Recommend places/Picture.png" class=" img-fluid" alt="...">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="card-title">High Fly</h5>
+                <h5 class="card-price">$700</h5>
+              </div>
+              <div class="d-flex justify-content-between mt-1">
+                <div class="card-places">
+                  <span>
+                    <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 0C3.14012 0 0 3.31421 0 7.38809C0 8.72925 0.569882 10.1717 0.593765 10.2325C0.777824 10.6936 1.141 11.4098 1.40288 11.8296L6.20241 19.505C6.39882 19.8196 6.68953 20 7 20C7.31047 20 7.60118 19.8196 7.79759 19.5054L12.5975 11.8296C12.8598 11.4098 13.2226 10.6936 13.4066 10.2325C13.4305 10.1721 14 8.72968 14 7.38809C14 3.31421 10.8599 0 7 0ZM12.6474 9.89526C12.4831 10.3086 12.145 10.9748 11.9099 11.3512L7.10994 19.0269C7.01524 19.1786 6.98518 19.1786 6.89047 19.0269L2.09053 11.3512C1.85541 10.9748 1.51735 10.3081 1.35306 9.89483C1.34606 9.87701 0.823529 8.54933 0.823529 7.38809C0.823529 3.79357 3.59429 0.869187 7 0.869187C10.4057 0.869187 13.1765 3.79357 13.1765 7.38809C13.1765 8.55106 12.6527 9.88223 12.6474 9.89526Z" fill="#ADADAD"/>
+                      <path d="M13.2647 5.50005C15.1596 8.50005 9.159 16.5 7.10614 19.5L2.84247 13C-2.46337 5.8 2.52668 1.6667 5.68494 0.500047C10.2328 -0.699943 12.6331 3.33338 13.2647 5.50005Z" fill="#ADADAD"/>
+                      <ellipse cx="7.10606" cy="7.5" rx="3.31615" ry="3.5" fill="white"/>
+                      <path d="M7.00008 3.47705C4.95649 3.47705 3.29419 5.23194 3.29419 7.38839C3.29419 9.54485 4.95649 11.2997 7.00008 11.2997C9.04367 11.2997 10.706 9.54485 10.706 7.38839C10.706 5.23194 9.04367 3.47705 7.00008 3.47705ZM7.00008 10.4305C5.41107 10.4305 4.11772 9.06592 4.11772 7.38839C4.11772 5.71086 5.41107 4.34624 7.00008 4.34624C8.58908 4.34624 9.88243 5.71086 9.88243 7.38839C9.88243 9.06592 8.58908 10.4305 7.00008 10.4305Z" fill="#ADADAD"/>
+                      </svg>
+                      
+                  </span>
+                  <span class="p-1">Gambir, Jakarta</span>
+                </div>
+                <div class="card-hour">
+                  <span>Per Hour</span>
+                </div>
+              </div>
+              <div class="ratting">
+                <span>4.6</span>
+              </div>
+              
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-sm-6  ">
+          <div class="card">
+            <img src="assets/Recommend places/Picture-2.png" class=" img-fluid" alt="...">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="card-title">Stone Mountain</h5>
+                <h5 class="card-price">$700</h5>
+              </div>
+              <div class="d-flex justify-content-between mt-1">
+                <div class="card-places">
+                  <span>
+                    <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 0C3.14012 0 0 3.31421 0 7.38809C0 8.72925 0.569882 10.1717 0.593765 10.2325C0.777824 10.6936 1.141 11.4098 1.40288 11.8296L6.20241 19.505C6.39882 19.8196 6.68953 20 7 20C7.31047 20 7.60118 19.8196 7.79759 19.5054L12.5975 11.8296C12.8598 11.4098 13.2226 10.6936 13.4066 10.2325C13.4305 10.1721 14 8.72968 14 7.38809C14 3.31421 10.8599 0 7 0ZM12.6474 9.89526C12.4831 10.3086 12.145 10.9748 11.9099 11.3512L7.10994 19.0269C7.01524 19.1786 6.98518 19.1786 6.89047 19.0269L2.09053 11.3512C1.85541 10.9748 1.51735 10.3081 1.35306 9.89483C1.34606 9.87701 0.823529 8.54933 0.823529 7.38809C0.823529 3.79357 3.59429 0.869187 7 0.869187C10.4057 0.869187 13.1765 3.79357 13.1765 7.38809C13.1765 8.55106 12.6527 9.88223 12.6474 9.89526Z" fill="#ADADAD"/>
+                      <path d="M13.2647 5.50005C15.1596 8.50005 9.159 16.5 7.10614 19.5L2.84247 13C-2.46337 5.8 2.52668 1.6667 5.68494 0.500047C10.2328 -0.699943 12.6331 3.33338 13.2647 5.50005Z" fill="#ADADAD"/>
+                      <ellipse cx="7.10606" cy="7.5" rx="3.31615" ry="3.5" fill="white"/>
+                      <path d="M7.00008 3.47705C4.95649 3.47705 3.29419 5.23194 3.29419 7.38839C3.29419 9.54485 4.95649 11.2997 7.00008 11.2997C9.04367 11.2997 10.706 9.54485 10.706 7.38839C10.706 5.23194 9.04367 3.47705 7.00008 3.47705ZM7.00008 10.4305C5.41107 10.4305 4.11772 9.06592 4.11772 7.38839C4.11772 5.71086 5.41107 4.34624 7.00008 4.34624C8.58908 4.34624 9.88243 5.71086 9.88243 7.38839C9.88243 9.06592 8.58908 10.4305 7.00008 10.4305Z" fill="#ADADAD"/>
+                      </svg>
+                      
+                  </span>
+                  <span class="p-1">Padalarang, Bandung</span>
+                </div>
+                <div class="card-hour">
+                  <span>Per Hour</span>
+                </div>
+              </div>
+              <div class="ratting">
+                <span>4.9</span>
+              </div>
+              
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-sm-6  ">
+          <div class="card">
+            <img src="assets/Recommend places/Picture-3.png" class=" img-fluid" alt="...">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="card-title">White Building</h5>
+                <h5 class="card-price">$380</h5>
+              </div>
+              <div class="d-flex justify-content-between mt-1">
+                <div class="card-places">
+                  <span>
+                    <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 0C3.14012 0 0 3.31421 0 7.38809C0 8.72925 0.569882 10.1717 0.593765 10.2325C0.777824 10.6936 1.141 11.4098 1.40288 11.8296L6.20241 19.505C6.39882 19.8196 6.68953 20 7 20C7.31047 20 7.60118 19.8196 7.79759 19.5054L12.5975 11.8296C12.8598 11.4098 13.2226 10.6936 13.4066 10.2325C13.4305 10.1721 14 8.72968 14 7.38809C14 3.31421 10.8599 0 7 0ZM12.6474 9.89526C12.4831 10.3086 12.145 10.9748 11.9099 11.3512L7.10994 19.0269C7.01524 19.1786 6.98518 19.1786 6.89047 19.0269L2.09053 11.3512C1.85541 10.9748 1.51735 10.3081 1.35306 9.89483C1.34606 9.87701 0.823529 8.54933 0.823529 7.38809C0.823529 3.79357 3.59429 0.869187 7 0.869187C10.4057 0.869187 13.1765 3.79357 13.1765 7.38809C13.1765 8.55106 12.6527 9.88223 12.6474 9.89526Z" fill="#ADADAD"/>
+                      <path d="M13.2647 5.50005C15.1596 8.50005 9.159 16.5 7.10614 19.5L2.84247 13C-2.46337 5.8 2.52668 1.6667 5.68494 0.500047C10.2328 -0.699943 12.6331 3.33338 13.2647 5.50005Z" fill="#ADADAD"/>
+                      <ellipse cx="7.10606" cy="7.5" rx="3.31615" ry="3.5" fill="white"/>
+                      <path d="M7.00008 3.47705C4.95649 3.47705 3.29419 5.23194 3.29419 7.38839C3.29419 9.54485 4.95649 11.2997 7.00008 11.2997C9.04367 11.2997 10.706 9.54485 10.706 7.38839C10.706 5.23194 9.04367 3.47705 7.00008 3.47705ZM7.00008 10.4305C5.41107 10.4305 4.11772 9.06592 4.11772 7.38839C4.11772 5.71086 5.41107 4.34624 7.00008 4.34624C8.58908 4.34624 9.88243 5.71086 9.88243 7.38839C9.88243 9.06592 8.58908 10.4305 7.00008 10.4305Z" fill="#ADADAD"/>
+                      </svg>
+                      
+                  </span>
+                  <span class="p-1">Kebun Raya, Bogor</span>
+                </div>
+                <div class="card-hour">
+                  <span>Per Hour</span>
+                </div>
+              </div>
+              <div class="ratting">
+                <span>4.8</span>
+              </div>
+              
+             
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- end section recomend -->
+
+ <!-- section gallery -->
+ <section class="gallery mb-4">
+ <div class="container">
+  <div class="section-title text-center">
+    <h3>Gallery</h3>
+    <p>This photo is from some of EzStay<br> 
+      Favorite buildings</p>
+  </div>
+  <div class="section-body-gallery">
+    <div class="grid gallery-item">
+      <div class="g-col-1 p-sm-1 gallery-item-img">
+        <img src="assets/Gallery/gallery-1.png" alt="" class=" img-fluid ">
+        <div class="action-gallery ">
+          <div class="d-flex justify-content-between">
+            <div class="places-gallery">
+              <h3>Glasses House</h3>
+              <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 0C3.14012 0 0 3.31421 0 7.38809C0 8.72925 0.569882 10.1717 0.593765 10.2325C0.777824 10.6936 1.141 11.4098 1.40288 11.8296L6.20241 19.505C6.39882 19.8196 6.68953 20 7 20C7.31047 20 7.60118 19.8196 7.79759 19.5054L12.5975 11.8296C12.8598 11.4098 13.2226 10.6936 13.4066 10.2325C13.4305 10.1721 14 8.72968 14 7.38809C14 3.31421 10.8599 0 7 0ZM12.6474 9.89526C12.4831 10.3086 12.145 10.9748 11.9099 11.3512L7.10994 19.0269C7.01524 19.1786 6.98518 19.1786 6.89047 19.0269L2.09053 11.3512C1.85541 10.9748 1.51735 10.3081 1.35306 9.89483C1.34606 9.87701 0.823529 8.54933 0.823529 7.38809C0.823529 3.79357 3.59429 0.869187 7 0.869187C10.4057 0.869187 13.1765 3.79357 13.1765 7.38809C13.1765 8.55106 12.6527 9.88223 12.6474 9.89526Z" fill="#ADADAD"/>
+                <path d="M13.2647 5.50005C15.1596 8.50005 9.159 16.5 7.10614 19.5L2.84247 13C-2.46337 5.8 2.52668 1.6667 5.68494 0.500047C10.2328 -0.699943 12.6331 3.33338 13.2647 5.50005Z" fill="#ADADAD"/>
+                <ellipse cx="7.10606" cy="7.5" rx="3.31615" ry="3.5" fill="white"/>
+                <path d="M7.00008 3.47705C4.95649 3.47705 3.29419 5.23194 3.29419 7.38839C3.29419 9.54485 4.95649 11.2997 7.00008 11.2997C9.04367 11.2997 10.706 9.54485 10.706 7.38839C10.706 5.23194 9.04367 3.47705 7.00008 3.47705ZM7.00008 10.4305C5.41107 10.4305 4.11772 9.06592 4.11772 7.38839C4.11772 5.71086 5.41107 4.34624 7.00008 4.34624C8.58908 4.34624 9.88243 5.71086 9.88243 7.38839C9.88243 9.06592 8.58908 10.4305 7.00008 10.4305Z" fill="#ADADAD"/>
+                </svg>
+                
+                <span class="p-1 name-places">Sudirman, Pekanbaru</span>
+                
+            </div>
+            <div class=" ratting-gallery text-end d-flex justify-content-center align-items-center">
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.04894 0.92705C7.3483 0.00573921 8.6517 0.00573969 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58778 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" fill="#3A8375"/>
+                </svg>
+                
+              <span class="ratting mr-1">4.6</span>
+            </div>
+          </div>
+         
+        </div>
+        <a href="" class="d-flex justify-content-center">
+          <img src="assets/icon/Detail.png" alt="" class="align-self-center">
+        </a>
+      
+        
+      </div>
+      <div class="g-col-1 p-sm-1 gallery-item-img">
+        <img src="assets/Gallery/gallery-2.png" alt="" class=" img-fluid ">
+        <div class="action-gallery ">
+          <div class="d-flex justify-content-between">
+            <div class="places-gallery">
+              <h3>Glasses House</h3>
+              <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 0C3.14012 0 0 3.31421 0 7.38809C0 8.72925 0.569882 10.1717 0.593765 10.2325C0.777824 10.6936 1.141 11.4098 1.40288 11.8296L6.20241 19.505C6.39882 19.8196 6.68953 20 7 20C7.31047 20 7.60118 19.8196 7.79759 19.5054L12.5975 11.8296C12.8598 11.4098 13.2226 10.6936 13.4066 10.2325C13.4305 10.1721 14 8.72968 14 7.38809C14 3.31421 10.8599 0 7 0ZM12.6474 9.89526C12.4831 10.3086 12.145 10.9748 11.9099 11.3512L7.10994 19.0269C7.01524 19.1786 6.98518 19.1786 6.89047 19.0269L2.09053 11.3512C1.85541 10.9748 1.51735 10.3081 1.35306 9.89483C1.34606 9.87701 0.823529 8.54933 0.823529 7.38809C0.823529 3.79357 3.59429 0.869187 7 0.869187C10.4057 0.869187 13.1765 3.79357 13.1765 7.38809C13.1765 8.55106 12.6527 9.88223 12.6474 9.89526Z" fill="#ADADAD"/>
+                <path d="M13.2647 5.50005C15.1596 8.50005 9.159 16.5 7.10614 19.5L2.84247 13C-2.46337 5.8 2.52668 1.6667 5.68494 0.500047C10.2328 -0.699943 12.6331 3.33338 13.2647 5.50005Z" fill="#ADADAD"/>
+                <ellipse cx="7.10606" cy="7.5" rx="3.31615" ry="3.5" fill="white"/>
+                <path d="M7.00008 3.47705C4.95649 3.47705 3.29419 5.23194 3.29419 7.38839C3.29419 9.54485 4.95649 11.2997 7.00008 11.2997C9.04367 11.2997 10.706 9.54485 10.706 7.38839C10.706 5.23194 9.04367 3.47705 7.00008 3.47705ZM7.00008 10.4305C5.41107 10.4305 4.11772 9.06592 4.11772 7.38839C4.11772 5.71086 5.41107 4.34624 7.00008 4.34624C8.58908 4.34624 9.88243 5.71086 9.88243 7.38839C9.88243 9.06592 8.58908 10.4305 7.00008 10.4305Z" fill="#ADADAD"/>
+                </svg>
+                
+                <span class="p-1 name-places">Kebun Raya, Bogor</span>
+                
+            </div>
+            <div class=" ratting-gallery text-end d-flex justify-content-center align-items-center">
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.04894 0.92705C7.3483 0.00573921 8.6517 0.00573969 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58778 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" fill="#3A8375"/>
+                </svg>
+                
+              <span class="ratting mr-1">4.9</span>
+            </div>
+          </div>
+         
+        </div>
+        <a href="" class="d-flex justify-content-center">
+          <img src="assets/icon/Detail.png" alt="" class="align-self-center">
+        </a>
+      
+        
+      </div>
+      <div class="g-col-1 p-sm-1 gallery-item-img-mobile">
+        <img src="assets/Gallery/gallery-3.png" alt="" class="img-fluid">
+        <div class="action-gallery ">
+          <div class="d-flex justify-content-between">
+            <div class="places-gallery">
+              <h3>Glasses House</h3>
+              <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 0C3.14012 0 0 3.31421 0 7.38809C0 8.72925 0.569882 10.1717 0.593765 10.2325C0.777824 10.6936 1.141 11.4098 1.40288 11.8296L6.20241 19.505C6.39882 19.8196 6.68953 20 7 20C7.31047 20 7.60118 19.8196 7.79759 19.5054L12.5975 11.8296C12.8598 11.4098 13.2226 10.6936 13.4066 10.2325C13.4305 10.1721 14 8.72968 14 7.38809C14 3.31421 10.8599 0 7 0ZM12.6474 9.89526C12.4831 10.3086 12.145 10.9748 11.9099 11.3512L7.10994 19.0269C7.01524 19.1786 6.98518 19.1786 6.89047 19.0269L2.09053 11.3512C1.85541 10.9748 1.51735 10.3081 1.35306 9.89483C1.34606 9.87701 0.823529 8.54933 0.823529 7.38809C0.823529 3.79357 3.59429 0.869187 7 0.869187C10.4057 0.869187 13.1765 3.79357 13.1765 7.38809C13.1765 8.55106 12.6527 9.88223 12.6474 9.89526Z" fill="#ADADAD"/>
+                <path d="M13.2647 5.50005C15.1596 8.50005 9.159 16.5 7.10614 19.5L2.84247 13C-2.46337 5.8 2.52668 1.6667 5.68494 0.500047C10.2328 -0.699943 12.6331 3.33338 13.2647 5.50005Z" fill="#ADADAD"/>
+                <ellipse cx="7.10606" cy="7.5" rx="3.31615" ry="3.5" fill="white"/>
+                <path d="M7.00008 3.47705C4.95649 3.47705 3.29419 5.23194 3.29419 7.38839C3.29419 9.54485 4.95649 11.2997 7.00008 11.2997C9.04367 11.2997 10.706 9.54485 10.706 7.38839C10.706 5.23194 9.04367 3.47705 7.00008 3.47705ZM7.00008 10.4305C5.41107 10.4305 4.11772 9.06592 4.11772 7.38839C4.11772 5.71086 5.41107 4.34624 7.00008 4.34624C8.58908 4.34624 9.88243 5.71086 9.88243 7.38839C9.88243 9.06592 8.58908 10.4305 7.00008 10.4305Z" fill="#ADADAD"/>
+                </svg>
+                
+                <span class="p-1 name-places">Sudirman, Pekanbaru</span>
+                
+            </div>
+            <div class=" ratting-gallery text-end d-flex justify-content-center align-items-center">
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.04894 0.92705C7.3483 0.00573921 8.6517 0.00573969 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58778 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" fill="#3A8375"/>
+                </svg>
+                
+              <span class="ratting mr-1">4.6</span>
+            </div>
+          </div>
+         
+        </div>
+        <a href="" class="d-flex justify-content-center">
+          <img src="assets/icon/Detail.png" alt="" class="align-self-center">
+        </a>
+      
+      </div>
+      <div class="g-col-1 p-sm-1 "><img src="assets/Gallery/gallery-4.png" alt="" class="img-fluid"></div>
+      
+    </div>
+  </div> 
+ </div>
+  
+ </section>
+ <!-- end section gallery -->
+
+  
+  
+  </body>
+</html>
