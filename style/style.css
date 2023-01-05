@@ -217,11 +217,11 @@ body {
      -moz-border-radius: 20px;
      -ms-border-radius: 20px;
      -o-border-radius: 20px;
-     transition: 0.3s;
-     -webkit-transition: 0.3s;
-     -moz-transition: 0.3s;
-     -ms-transition: 0.3s;
-     -o-transition: 0.3s;
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
      margin-bottom: 20px;
 }
 .section-recomended-building .card.active {
@@ -230,6 +230,7 @@ body {
 
 .section-recomended-building .card:hover {
      border: 2px solid var(--green-colorr);
+     padding: 24px;
 } 
 
 .section-recomended-building .card img{
